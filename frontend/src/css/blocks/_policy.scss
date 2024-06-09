@@ -1,0 +1,40 @@
+.policy {
+    padding: 240px 0 50px;
+    @include breakpoint-down($desc-width) {
+        padding: 200px 0 50px;
+    }
+    @include breakpoint-down($middle-width) {
+        padding: 140px 0 50px;
+    }
+}
+
+.policy__content {
+    h1 {
+        font-size: 54px;
+        letter-spacing: -1.08px;
+        margin-bottom: 50px;
+        line-height: 110%;
+        @include breakpoint-down($desc-width) {
+            font-size: 24px;
+            margin-bottom: 25px;
+        }
+    }
+    h2 {
+        font-size: 34px;
+        letter-spacing: -1.08px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+        line-height: 110%;
+        @include breakpoint-down($desc-width) {
+            font-size: 18px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+    }
+    p {
+        font-size: 16px;
+        &:not(:last-of-type) {
+            margin-bottom: 10px;
+        }
+    }
+}

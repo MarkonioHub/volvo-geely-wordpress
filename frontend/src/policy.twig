@@ -1,0 +1,10 @@
+{% extends 'templates/base.twig' %}
+{% set header_black = 'true' %}
+
+{% block title %}Политика{% endblock %}
+
+{% block page %}
+    {% include 'templates/includes/policy.twig' %}
+    {% include 'templates/includes/modal-thanks.twig' %}
+    {% include 'templates/includes/modal-registration.twig' %}
+{% endblock %}
