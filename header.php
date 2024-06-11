@@ -16,6 +16,19 @@
     <meta name="msapplication-TileColor" content="#fff">
     <meta name="theme-color" content="#fff">
 
+    <script async src="https://mc.yandex.ru/metrika/tag.js"></script>
+
+    <!-- Google analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', '');
+    </script>
+    <!-- /Google analytics -->
+
     <?php wp_head(); ?>
 </head>
 <body>

@@ -54,4 +54,6 @@
 <?php get_template_part( 'parts/modals/registration' ); ?>
 <?php get_template_part( 'parts/modals/thanks' ); ?>
 
+<?php get_template_part( 'parts/yandex-metrika' ); ?>
+
 <?php wp_footer() ?>
